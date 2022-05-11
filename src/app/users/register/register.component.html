@@ -14,11 +14,11 @@
         <input matInput type="text" name="paswword" placeholder="Password" />
         <mat-icon matSuffix>lock_outline</mat-icon>
       </div>
-      <div class="item-form">
-        <input MatInput type="checkbox" />
+      <div class="item-checkbox">
+        <mat-checkbox disabled class="mat-elevation-z2"> </mat-checkbox>
         <p>I agree to the terms of service</p>
       </div>
-      <button mat-flat-button>Login</button>
+      <button class="login-green">Login</button>
       <div class="paragraph-bottom">
         <p class="paragraph">
           Dont have an account?<a href="register-21.html">Login here</a>
@@ -26,28 +26,37 @@
       </div>
     </div>
     <div class="social-form-container">
+      <div class="logo">
+        <img src="../../../assets/logo.png" />
+      </div>
       <div class="login-form">
-        <mat-chip-list>
-          <mat-chip>Login</mat-chip>
-          <mat-chip>Register</mat-chip>
-        </mat-chip-list>
+        <button class="login">Login</button><br />
+        <button class="register">Register</button>
       </div>
       <div class="social-form-list">
-        <mat-chip
-          ><a href="" class="facebook"><i class="fab fa-facebook"></i></a
-        ></mat-chip>
-        <mat-chip
-          ><a href="" class="facebook"><i class="fab fa-twitter"></i></a
-        ></mat-chip>
-        <mat-chip
-          ><a href="" class="facebook"><i class="fab fa-google"></i></a
-        ></mat-chip>
-        <mat-chip
-          ><a href="" class="facebook"><i class="fab fa-linkedin"></i></a
-        ></mat-chip>
-        <mat-chip
-          ><a href="" class="facebook"><i class="fab fa-pinterest"></i></a
-        ></mat-chip>
+        <ul>
+          <li>
+            <a href="" class="facebook-blue-dark"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="" class="facebook-blue-light"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="" class="facebook-red"><i class="fab fa-google"></i></a>
+          </li>
+          <li>
+            <a href="" class="facebook-blue"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="" class="facebook-dark-red"
+              ><i class="fab fa-pinterest"></i
+            ></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
